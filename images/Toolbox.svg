@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46px" height="32px" viewBox="0 0 45 32" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 23 10 L 33.785156 10 L 33.785156 27.449219 L 23 27.449219 Z M 23 10 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 14 4.621094 L 33.785156 4.621094 L 33.785156 27.449219 L 14 27.449219 Z M 14 4.621094 "/>
+</clipPath>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="-13.82" y1="7.1791" x2="14.041" y2="-7.2939" gradientTransform="matrix(0.705329,0,0,0.71334,23.916654,16.064771)">
+<stop offset="0.043" style="stop-color:rgb(100%,52.54902%,9.411765%);stop-opacity:1;"/>
+<stop offset="0.382" style="stop-color:rgb(100%,14.117647%,43.137255%);stop-opacity:1;"/>
+<stop offset="0.989" style="stop-color:rgb(68.627451%,11.372549%,96.078431%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 30.96875 20.628906 L 26.171875 23.339844 L 26.171875 21.199219 L 30.96875 18.488281 Z M 30.96875 20.628906 "/>
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0.392157%);fill-opacity:1;" d="M 23.917969 27.476562 L 33.792969 21.773438 L 33.792969 10.359375 L 23.917969 16.066406 Z M 23.917969 27.476562 "/>
+</g>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 25.960938 22.199219 L 25.960938 23.910156 L 30.265625 21.414062 L 30.265625 19.703125 Z M 25.960938 22.199219 "/>
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 23.917969 4.652344 L 14.042969 10.359375 L 14.042969 21.773438 L 23.917969 27.476562 L 23.917969 16.066406 L 33.792969 10.359375 Z M 23.917969 4.652344 "/>
+</g>
+</g>
+</svg>
