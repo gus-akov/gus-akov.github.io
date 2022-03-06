@@ -26,13 +26,23 @@
     </head>
     <body>
         <div class="main">
+            <nav id="navb">
+                <div class="logo">
+                </div>
+                <ul>
+                    <li><a style="text-decoration: none;" href="#">Home</a></li>
+                    <li><a style="text-decoration: none;" href="#">About</a></li>
+                    <li><a style="text-decoration: none;" href="#">Clients</a></li>
+                    <li><a style="text-decoration: none;" href="#">Contact Us</a></li>
+                </ul>
+            </nav>
             <header class="bg-img header">
                 <div class="container">
                     <div class="row">
                         <div class="intro-box">
                             <div class="intro">
-                                <h1>Георгий Гусаков</h1>
-                                <h2>Репетитор по Python</h2>
+                                <h1 id="nav_hello1">Георгий Гусаков</h1>
+                                <h2 id="nav_hello2">Репетитор по Python</h2>
                             </div>
                         </div>
                     </div>
@@ -59,14 +69,14 @@
                         <div class="col-sm-4">
                             <div class="vira-card">
                                 <div class="vira-card-header">
-                                    <div id="python" class="card-icon" style="z-index: 777">
-                                        <a href="https://www.python.org/downloads/"></a>
-                                    </div>
+                                    <a href="https://www.python.org/downloads/">
+                                        <div id="python" class="card-icon"></div>
+                                    </a>
                                 </div>
                                 <div class="vira-card-content">
-                                    <h3>Digital Design</h3>
+                                    <h3>Python</h3>
                                     <p>
-                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club met zichlaim meebrengt. Onze enige missiede
+                                        Python — высокоуровневый язык программирования общего назначения
                                     </p>
                                 </div>
                             </div>
@@ -74,14 +84,15 @@
                         <div class="col-sm-4">
                             <div class="vira-card">
                                 <div class="vira-card-header">
-                                    <div id="pycharm" class="card-icon">
-                                        <a href="https://www.python.org/downloads/"></a>
-                                    </div>
+                                    <a href="https://www.jetbrains.com/ru-ru/pycharm/download/">
+                                        <div id="pycharm" class="card-icon"></div>
+                                    </a>
                                 </div>
                                 <div class="vira-card-content">
-                                    <h3>Web Development</h3>
+                                    <h3>PyCharm</h3>
                                     <p>
-                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club met zichlaim meebrengt. Onze enige missiede
+                                        IDE для профессиональной разработки
+                                        на Python
                                     </p>
                                 </div>
                             </div>
@@ -89,14 +100,14 @@
                         <div class="col-sm-4">
                             <div class="vira-card">
                                 <div class="vira-card-header">
-                                    <div id="jetbrains" class="card-icon">
-                                        <a href="https://www.python.org/downloads/"></a>
-                                    </div>
+                                    <a href="https://www.jetbrains.com/ru-ru/toolbox-app/">
+                                        <div id="jetbrains" class="card-icon"></div>
+                                    </a>
                                 </div>
                                 <div class="vira-card-content">
-                                    <h3>Digital Marketing</h3>
+                                    <h3>Toolbox App</h3>
                                     <p>
-                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club met zichlaim meebrengt. Onze enige missiede
+                                        Управляйте IDE легко
                                     </p>
                                 </div>
                             </div>
@@ -107,20 +118,25 @@
             <section id="expertise" class="expert">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-6 bg-img">
+                        <div class="col col-sm-6 bg-img">
                             <div></div>
                         </div>
-                        <div class="col-sm-5 section">
-                            <h2 class="title">Responsive design expert</h2>
+                        <div class="col col-sm-5 section" style="padding-left: 10%">
+                            <h2 class="title">Python</h2>
                             <div id="expert-slider" class="owl-carousel">
                                 <div class="item">
+                                    <h5>Почему Python?</h5>
                                     <p>
-                                        Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall proposition. Organically grow the holistic world view of disruptiveinnovationvia workplace diversity and empowerment.
+                                        Python применяется при анализе и
+                                        визуализации данных, а также в машинном обучении,
+                                        веб-разработке, автоматизации процессов, создании ботов и много другого.
                                     </p>
                                 </div>
                                 <div class="item">
+                                    <h5>Python научит вас думать</h5>
                                     <p>
-                                        Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                                        Обучение программированию дает не только технические знания, но и новый подход к работе.
+                                        Программирование на любом языке заставляет внимательнее относиться к деталям и развивает логическое мышление.
                                     </p>
                                 </div>
                             </div>
@@ -132,19 +148,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <img class="quote" src="images/quote.png">
                            <p>
-                               A user interface is like a joke. If you have to explain it, it’s not that good.
+                               Болтовня ничего не стоит. Покажите мне код.
                            </p>
-                           <p class="author">Martin leBlance, Iconfinder</p>
-                           <img src="images/mouse.png">
+                           <p class="author">Linus Torvalds</p>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="workstation" class="work section">
                 <div class="container">
-                    <h2 class="title">Our workstations</h2>
+                    <h2 class="title">ПОПО</h2>
                     <div id="workstation-slider" class="owl-carousel">
                         <div class="item">
                             <div class="vira-card">
@@ -227,92 +241,27 @@
                     </div>
                 </div>
             </section>
-            <section class="watch bg-img">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <span>Watch showreel</span>
-                            <a class="popup-youtube btn" href="https://www.youtube.com/watch?v=4KRHIbsl8BE"><span class="fa fa-play"></span></a>
-                            <span>with us</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section id="team" class="team section">
                 <div class="container">
                     <h2 class="title">Our team members</h2>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="vira-card">
-                                <div class="vira-card-header">
-                                    <img class="img-responsive" src="images/8.jpg">
-                                </div>
-                                <div class="vira-card-content">
-                                    <h3>Pink Floyd</h3>
-                                    <p>
-                                       Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club 
-                                    </p>
-                                    <div class="social-icons">
-                                        <ul>
-                                            <a href="#"><li><span class="ion-social-facebook"></span></li></a>
-                                            <a href="#"><li><span class="ion-social-twitter"></span></li></a>
-                                        </ul>
-                                    </div>
+                    <div class="col">
+
+                    <div class="row justify-content-center">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Георгий Гусаков</h3>
+                                <p>
+                                    kele risico’s die The Garment Club
+                                </p>
+                                <div class="social-icons">
+                                    <ul>
+                                        <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                        <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="vira-card">
-                                <div class="vira-card-header">
-                                    <img class="img-responsive" src="images/9.jpg">
-                                </div>
-                                <div class="vira-card-content">
-                                    <h3>Eric Clapton</h3>
-                                    <p>
-                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club 
-                                    </p>
-                                    <div class="social-icons">
-                                        <ul>
-                                            <a href="#"><li><span class="ion-social-facebook"></span></li></a>
-                                            <a href="#"><li><span class="ion-social-twitter"></span></li></a>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="vira-card">
-                                <div class="vira-card-header">
-                                    <img class="img-responsive" src="images/10.jpg">
-                                </div>
-                                <div class="vira-card-content">
-                                    <h3>Elton Jhon</h3>
-                                    <p>
-                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club 
-                                    </p>
-                                    <div class="social-icons">
-                                        <ul>
-                                            <a href="#"><li><span class="ion-social-facebook"></span></li></a>
-                                            <a href="#"><li><span class="ion-social-twitter"></span></li></a>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="subscribe section bg-img">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <p>Subscribe to our newsletter to get update</p>
-                            <form class="form-inline">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="user-email" placeholder="Write your email here....">
-                                </div>
-                                <button type="submit" class="btn vira-btn">Send me</button>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -382,12 +331,12 @@
                 </div>
             </footer>
         </div>
-
         <script src="js/jquery-3.1.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="https://use.fontawesome.com/55b73bf748.js"></script>
         <script src="js/jquery.magnific-popup.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/own.js"></script>
     </body>
 </html>

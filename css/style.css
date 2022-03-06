@@ -33,6 +33,8 @@ a{
 section{
 	text-align: center;
 }
+
+
 .blockquote p{
 	font-size: 32px;
 	line-height: 45px;
@@ -149,21 +151,21 @@ section{
 	text-align: center;
 	/*margin-bottom: 45px;*/
 }
-.vira-card .vira-card-header{
+.vira-card{
 	margin-bottom: 45px;
 }
-.vira-card .vira-card-header .card-icon{
+.vira-card .card-icon{
 	display: inline-block;
 	height: 120px;
 	width: 120px;
 	line-height: 120px;
 	position: relative;
 }
-.vira-card .vira-card-header .card-icon .fa{
+.vira-card .card-icon .fa{
 	margin-top: 45px;
 	font-size: 30px;
 }
-.vira-card .vira-card-header .card-icon:after{
+.vira-card .card-icon:after{
 	content: '';
 	height: 100px;
 	width: 100px;
@@ -174,19 +176,31 @@ section{
 }
 
 #python:after {
-	background-image: url("../images/Python.svg");
+	background-image: url("../images/python-5.svg");
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 #pycharm:after {
 	background-image: url("../images/PyCharm.svg");
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 #jetbrains:after {
-	background-image: url("../images/Python.svg");
+	background-image: url("../images/Toolbox.svg");
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: scale(2);
+
 }
 
-.vira-card .vira-card-header .card-icon span{
+#jetbrains {
+	margin-right: 4%;
+}
+
+.vira-card .card-icon span{
 	color: #fff;
 	font-size: 45px;
 	position: relative;
@@ -240,7 +254,10 @@ section{
 	padding: 10px 130px;
 }
 
-
+#port_photo {
+	width: 200px;
+	background-image: url("../images/portfolio2.jpeg");
+}
 
 /*Element page*/
 .element .navigation-bar{
@@ -422,8 +439,9 @@ section{
 	line-height: 200%;
 }
 .expert .bg-img{
-	background-image: url(../images/2.jpg);
+	background-image: url(../images/lap.jpg);
 	background-position-x: 85%;
+	background-position: bottom;
 	height: 100%;
 }
 .expert .bg-img:after{
@@ -436,8 +454,10 @@ section{
 
 
 .vira-quote{
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/kl.jpg);
+	background-position: top;
 	/*padding: 120px 0;*/
+	background-size: cover;
 	color: #fff;
 	font-style: italic;
 }
@@ -511,7 +531,7 @@ section{
 /*.contact .vira-card:hover{
 	box-shadow: 0px 4px 2px rgba(17, 17, 17, 0.3);
 }*/
-.contact .vira-card .vira-card-header{
+.contact .vira-card {
 	margin-bottom: 15px;
 	font-size: 21px;
 	color: #51c2b9;
@@ -543,14 +563,16 @@ section{
 	color: #fff;
 }
 
+.vira-card-header{
 
+}
 
 
 /*animations*/
-.vira-card .vira-card-header .card-icon:after{
+.vira-card .card-icon:after{
 	transition: all 0.3s ease-in-out;
 }
-.vira-card:hover .vira-card-header .card-icon:after{
+.vira-card:hover .card-icon:after{
 	height: 120px;
 	width: 120px;
 	top: -1px;
@@ -574,4 +596,48 @@ section{
 	.vira-card{
 		margin-bottom: 60px;
 	}
+}
+
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+	box-sizing: border-box;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li {
+	list-style: none;
+	margin-left: 1em;
+}
+
+nav ul li a {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: white;
+	padding: 1em 2em;
+	border-radius: 2em;
+}
+
+nav ul li a:hover {
+	background: white;
+	color: #3F3F3F;
+}
+
+#nav_hello1, #nav_hello2 {
+	position: relative;
+	z-index: 100;
 }
