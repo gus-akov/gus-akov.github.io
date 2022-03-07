@@ -3,6 +3,7 @@
 /*Global Settings*/
 body{
 	font-family: 'Lora', serif;
+	overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Raleway', sans-serif;
@@ -592,7 +593,7 @@ nav ul li a {
 	color: white;
 	padding: calc(0.1em + 1vw) calc(0.1em + 2vw);
 	border-radius: 2em;
-	font-size: calc(0.1em + 1.2vw);
+	font-size: calc(0.5em + 1vw);
 }
 
 nav ul li a:hover {
@@ -603,4 +604,7 @@ nav ul li a:hover {
 #nav_hello1, #nav_hello2 {
 	position: relative;
 	z-index: 100;
+	font-size: calc(1em + 2vw);
 }
+
+
