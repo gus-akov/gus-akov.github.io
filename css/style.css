@@ -2,8 +2,6 @@
 @import 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
 /*Global Settings*/
 html {
-	overflow-x: hidden;
-	-ms-overflow-x: hidden;
 }
 body{
 	font-family: 'Lora', serif;
