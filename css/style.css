@@ -3,6 +3,7 @@
 /*Global Settings*/
 html {
 	overflow-x: hidden;
+	-ms-overflow-x: hidden;
 }
 body{
 	font-family: 'Lora', serif;
